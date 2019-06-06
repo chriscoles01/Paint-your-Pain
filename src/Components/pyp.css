@@ -1,0 +1,27 @@
+.picholder:hover .overlay{opacity:1;}
+.picholder:hover .fancypics{opacity:0.7;}
+
+.picholder{width:500px;position:relative;}
+
+/*Centering size and color shenenigans*/
+.overlay {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  position: absolute;
+  border-radius: 50%;
+  opacity:1;
+  border: 1px solid red;
+  transition: transform .2s;
+background-image: "../simplestents_images/leftinside.png"
+}
+
+
+.overlay:hover {
+    transform: scale(1.5); 
+}
+.under{width:100%;}
+body {
+  color: black;
+  background-color: white
+}
